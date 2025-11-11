@@ -39,16 +39,16 @@ public class BOJ_1926 {
      * @param startY 시작점 Y (열)
      * @return 해당 그림의 넓이 (area)
      */
-    public static int bfs(int startX, int startY) {
-        Queue<Point> q = new LinkedList<>();
-        q.add(new Point(startX, startY));
+    public static int bfs(int startX, int startY) { //시작점의 위치를 매개변수 받음
+        Queue<Point> q = new LinkedList<>(); //Point를 담는 큐 생성
+        q.add(new Point(startX, startY)); //큐의 시작점 넣고
         vis[startX][startY] = true; // 시작점 방문 처리
 
         int area = 0; // 현재 그림의 넓이
 
         while (!q.isEmpty()) {
             Point cur = q.poll();
-            area++; // 큐에서 꺼낼 때마다 넓이 1 증가 [cite: 535]
+            area++; // 큐에서 꺼낼 때마다 넓이 1 증가
 
             // 4방향 탐색
             for (int dir = 0; dir < 4; dir++) {
@@ -101,7 +101,7 @@ public class BOJ_1926 {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                // (i, j)가 그림(1)이고, 아직 방문 안 했다면 [cite: 538]
+                // (i, j)가 그림(1)이고, 아직 방문 안 했다면
                 if (board[i][j] == 1 && !vis[i][j]) {
                     count++; // 새 그림 발견, 개수 증가
                     // 해당 지점에서 BFS를 시작하고, 반환된 넓이로 최대값 갱신
