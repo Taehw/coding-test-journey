@@ -49,7 +49,7 @@ public class BOJ_2178 {
         for (int i = 0; i < N; i++) {
             String line = br.readLine();
             for (int j = 0; j < M; j++) {
-                board[i][j] = line.charAt(j) - '0';
+                board[i][j] = line.charAt(j) - '0'; //아스키코드 계산에 의해 0아님 1의 상태로 저장
                 dist[i][j] = -1; // -1로 초기화하여 미방문 상태 표시
             }
         }
