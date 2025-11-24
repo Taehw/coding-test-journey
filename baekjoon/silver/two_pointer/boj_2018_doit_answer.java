@@ -1,4 +1,4 @@
-package silver;
+package silver.two_pointer;
 
 import java.util.Scanner;
 
