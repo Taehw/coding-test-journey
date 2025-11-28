@@ -15,19 +15,6 @@ public class SequenceAndRangeQuery2 {
     }
 
     public static int[] solution(int[] arr, int[][] queries) {
-        int[] answer = {};
 
-        for (int i = 0; i < queries.length; i++) {
-
-            for (int j = queries[i][0]; j <= queries[i][1]; j++) {
-
-                int min = arr[queries[i][0]];
-                if (min > arr[j]) {
-                    min = arr[j];
-                }
-            }
-        }
-
-        return answer;
     }
 }
