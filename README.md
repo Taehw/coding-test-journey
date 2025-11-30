@@ -3,7 +3,8 @@
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=nomppi1)](https://solved.ac/YOUR_BOJ_ID)
 ![Java](https://img.shields.io/badge/Language-Java-blue.svg)
 
-- [2025-07-11] 시작 (브론즈3)
+- [2025-07-11] 브론즈3
+- [2025-11-30] 실버5
 
 📌 코딩테스트 준비를 위한 문제 풀이 기록 repo입니다.  
 Doit 자바 코테 강의와 백준, 프로그래머스 문제를 중심으로 알고리즘 & 자료구조를 연습하고 있습니다.
