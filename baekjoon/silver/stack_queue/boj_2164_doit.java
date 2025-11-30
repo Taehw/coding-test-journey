@@ -1,4 +1,4 @@
-package silver.stack;
+package silver.stack_queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
