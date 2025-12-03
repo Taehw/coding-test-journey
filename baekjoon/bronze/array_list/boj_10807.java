@@ -16,7 +16,7 @@ public class boj_10807 {
         //정수의 개수 N 100가지 정수 주어지면 한번에 입력받아야될게 많아지니까
         //BufferedReader랑 StringTokenizer 깔고 감  그치?
 
-        int num = Integer.parseInt(st.nextToken());
+        int num = Integer.parseInt(st.nextToken()); //여기서 굳이 st 사용안해도됨 걍 br.readLine() 만 해도 문제 x
 
         //줄바뀌니까 초기화?
         st = new StringTokenizer(br.readLine());
