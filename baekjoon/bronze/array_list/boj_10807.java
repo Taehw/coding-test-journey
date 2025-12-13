@@ -3,7 +3,6 @@ package bronze.array_list;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class boj_10807 {
