@@ -6,7 +6,7 @@ public class boj_1427_doit {
 
     //선택정렬로 풀기
     //Arrays.sort도 가능
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
         Scanner sc = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ public class boj_1427_doit {
         for (int i = 0; i < str.length(); i++) {
             int maxIndex = i;
             for (int j = i + 1; j < str.length(); j++) {
-                if (array[maxIndex] < array[j]) {
+                 if (array[maxIndex] < array[j]) {
                     maxIndex = j;
                 }
             }
