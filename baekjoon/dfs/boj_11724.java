@@ -1,7 +1,6 @@
 package dfs;
 
 import java.io.*; //근데 필요한라이브러리외에 가져오면 실행시간에 영향 안미치나?
-import java.sql.Array;
 import java.util.*;
 
 public class boj_11724 {
