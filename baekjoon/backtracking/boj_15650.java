@@ -18,6 +18,7 @@ public class boj_15650 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
+
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
 
@@ -31,7 +32,6 @@ public class boj_15650 {
     private static void backtracking(int length) {
         if (length == M) {
             printArray();
-
             return ;
         }
 
