@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class boj_15649 {
 
+    //N과 M(1)
+
     static int N;
     static int M;
     static int[] arr;
