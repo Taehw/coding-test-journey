@@ -64,6 +64,7 @@ public class boj_11724_self {
         System.out.println(count);
     }
 
+    //이부분이 핵심인데 이걸 까먹어?
     public static void DFS(int startPoint) {
         //DFS 함수 -> 연결요소의 개수 ++ , 재귀로 탐색 ???
         visited[startPoint] = true;
