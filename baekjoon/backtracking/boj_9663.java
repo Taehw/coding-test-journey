@@ -35,6 +35,7 @@ public class boj_9663 {
 
     /*
     * N = 4
+    *
     * board -> 5개
     *
     * 0 1 2 3 4 -> backtracking 처음 매개변수로 1 넘겨주면 1부터 쓸수 있음
