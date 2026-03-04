@@ -1,5 +1,7 @@
 package bfs;
 
+//백준7576 - 토마토 (BFS 응용, 시작점이 여러개)
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,7 +17,7 @@ public class boj_7576 {
 
     static int M, N; // M: 가로(열), N: 세로(행)
     static int[][] A;
-    // 이 문제에서는 방문 배열(visited) 대신 원래 배열(A)에 일수를 누적하는 방식이 더 효율적입니다.
+    // 이 문제에서는 방문 배열(visited) 대신 원래 배열(A)에 일수를 누적하는 방식이 더 효율적
     static Queue<int[]> queue = new LinkedList<>();
 
     public static void main(String[] args) throws IOException {
